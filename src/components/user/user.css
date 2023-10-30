@@ -1,0 +1,79 @@
+.user_section {
+    width: 90vw;
+    height: auto;
+    margin: auto;
+    margin-top: 2rem;
+    border: 2px solid #7828C8;
+    padding: 1.5rem 1.5rem;
+    border-radius: 4rem;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
+.left_section {
+    width: 33vw;
+    border-right: 2px dotted #7828C8;
+}
+
+.left_section img {
+    width: 30rem;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px 5px #7828C8 inset;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.right_section {
+    width: 50vw;
+}
+
+.right_section img {
+    height: 8rem;
+    width: 100%;
+    margin-top: 1rem;
+    border-radius: 2rem;
+}
+
+.user_name {
+    font-size: 2rem;
+    width: 30rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.info_text {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 4rem;
+}
+
+.primary_user_info {
+    /* position: relative; */
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 5rem; */
+}
+
+/* .second, .third {
+    margin-left: 1rem;
+} */
+
+.right_user {
+    width: 50%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+
+
+.right_user span {
+    color: #F871A0;
+}
+
